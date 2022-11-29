@@ -17,7 +17,7 @@ namespace ForageMvc.Models
 
       var builder = new DbContextOptionsBuilder<ForageMvcContext>();
 
-      builder.UseMySql(configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(configuration["ConnectionStrings:DefaultConnection"]));
+      builder.UseSqlServer();
 
       return new ForageMvcContext(builder.Options);
     }

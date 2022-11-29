@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HLehr\\desktop\\botanical-adventure-mvc\\ForageMvc.csproj": {}
+    "C:\\Users\\HLehr\\desktop\\botanical-adventure-MVC\\ForageMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HLehr\\desktop\\botanical-adventure-mvc\\ForageMvc.csproj": {
+    "C:\\Users\\HLehr\\desktop\\botanical-adventure-MVC\\ForageMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HLehr\\desktop\\botanical-adventure-mvc\\ForageMvc.csproj",
+        "projectUniqueName": "C:\\Users\\HLehr\\desktop\\botanical-adventure-MVC\\ForageMvc.csproj",
         "projectName": "ForageMvc",
-        "projectPath": "C:\\Users\\HLehr\\desktop\\botanical-adventure-mvc\\ForageMvc.csproj",
+        "projectPath": "C:\\Users\\HLehr\\desktop\\botanical-adventure-MVC\\ForageMvc.csproj",
         "packagesPath": "C:\\Users\\HLehr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HLehr\\desktop\\botanical-adventure-mvc\\obj\\",
+        "outputPath": "C:\\Users\\HLehr\\desktop\\botanical-adventure-MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HLehr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -55,6 +55,14 @@
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

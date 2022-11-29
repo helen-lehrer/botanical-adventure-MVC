@@ -1,0 +1,284 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("../img/home_index.webp");
+  background-size: cover;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/* Item Views
+-------------------------------------------------- */
+#select {
+  width: 100px;
+  margin: 15px;
+  background-color: rgba(235, 235, 235, 0.7);
+}
+
+#button {
+  background-color: rgba(235, 235, 235, 0.7);
+}
+
+.ItemCatBttn {
+  float: left;
+  display: block-inline;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(235, 235, 235, 0.7);
+  opacity: 1;
+
+}
+
+#cat-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(150%);
+  
+}
+#d-heading span{
+  background-color: rgba(235, 235, 235, 0.7);
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-top: 100px; 
+}
+
+#center-cat {
+  text-align: center;
+  transform: translateY(100%);
+  border-radius: 1em;
+  align-content: center;
+
+}
+
+#item-heading {
+  text-align: center;
+  transform: translateY(500%);
+  border-radius: 1em;
+  align-content: center;
+}
+
+#item-heading span {
+  background-color: rgba(235, 235, 235, 0.7);
+  border-radius: 1em;
+  padding: 0.5em; 
+}
+.hidden {
+  display: none;
+}
+#medium {
+  margin-left: 27%;
+}
+#medium h6 {
+  color: aliceblue;
+  margin-top: 15%;
+  margin-left: 1%;
+  border-style: none;
+  float:left;
+  background-color: darkgreen;
+}
+#medium h6 img {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+}
+
+#easy {
+  margin-left: 27%;
+}
+#easy h6 {
+  color: aliceblue;
+  margin-top: 15%;
+  margin-left: 1%;
+  border-style: none;
+  float:left;
+  background-color: darkgreen;
+}
+#easy h6 img {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+}
+
+#hard {
+  margin-left: 27%;
+}
+#hard h6 {
+  color: aliceblue;
+  margin-top: 15%;
+  margin-left: 1%;
+  border-style: none;
+  float:left;
+  background-color: darkgreen;
+}
+#hard h6 img {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+}
+
+/* easy */
+
+#easy {
+  margin-left: 23%;
+}
+#easy h6 {
+  color: aliceblue;
+  margin-top: 10%;
+  margin-left: 1%;
+  border-style: none;
+  float:left;
+  background-color: darkgreen;
+}
+#easy h6 img {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+}
+
+/* -----UserIndex--------- */
+.forestCard {
+  width: 50%;
+}
+
+/* ------Details------- */
+
+#details {
+  color: black;
+  background-color: white;
+  outline: green;
+  border-radius: 1em;
+  padding: 0.5em 0.5em; 
+  opacity: .80;
+  width: 640px;
+}
+
+#Name {
+  color: black;
+  background-color: white;
+  outline: green;
+  border-radius: 1em;
+  padding: 0.5em 0.5em; 
+  opacity: .80;
+  width: 640px;
+}
+
+.details-container {
+  margin-left: 31%;
+}
+
+.mascot {
+  align-content: center;
+  position: absolute;
+  top: 15%;
+  margin-left: 70%;
+}
+
+h6 a {
+  color: white;
+}
+
+h6 a:hover {
+  color: rgb(163, 255, 127);
+}
+
+#cat-link {
+  text-align: center;
+  transform: translateY(500%);
+  border-radius: 1em;
+  align-content: center;
+}
+
+#cat-link span {
+  background-color: rgba(235, 235, 235, 0.7);
+  border-radius: 1em;
+  padding: 0.5em; 
+}
+
+
+
+#cat-link a {
+  color: black;
+}
+
+#cat-link a:hover {
+  color: rgb(163, 255, 127);
+}
+
+#details-link {
+  text-align: center;
+  transform: translateY(500%);
+  border-radius: 1em;
+  align-content: center;
+}
+
+#details-link span {
+  background-color: rgba(235, 235, 235, 0.7);
+  border-radius: 1em;
+  padding: 0.5em; 
+}

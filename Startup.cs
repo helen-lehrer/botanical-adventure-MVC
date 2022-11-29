@@ -25,9 +25,8 @@ namespace ForageMvc
     {
       services.AddMvc();
 
-      services.AddEntityFrameworkMySql()
-        .AddDbContext<ForageMvcContext>(options => options
-        .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
+      services.AddDbContext<ForageMvcContext>(options =>
+        options.UseSqlServer(Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
         
       services.AddIdentity<User, IdentityRole>()
         .AddEntityFrameworkStores<ForageMvcContext>()

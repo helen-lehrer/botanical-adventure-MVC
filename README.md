@@ -4,6 +4,8 @@
 
 #### _MVC for the Botanical Adventure game._
 
+[link to the paired API](https://github.com/helen-lehrer/botanical-adventure-API)
+
 ## Technologies Used
 
 * _C#_

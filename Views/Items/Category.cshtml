@@ -53,18 +53,18 @@ window.addEventListener("load", function() {
 });
 </script>
 
-<div id="easy" class="hidden common-class">
-	@foreach (Item item in Model)
-	{
-    if (item.Difficulty == "easy")
-    {
-		@using (Html.BeginForm("Details", "Items", new { id = item.ItemId}))   
-    {
-      <h6> <img src="@Url.Content(item.CatPicture)" width="150px"/><br>@Html.ActionLink(@item.Name, "Details", new { id = item.ItemId})</h6>
-    }
-		<br>
-    }
-	}
+<div id="easy" class="hidden common-class" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+  @foreach (Item item in Model)
+  {
+      if (item.Difficulty == "easy")
+      {
+          <div style="flex: 0 0 calc(33.333% - 1rem); box-sizing: border-box;">
+              <img src="@Url.Content(item.CatPicture)" width="100%" />
+              <br />
+              @Html.ActionLink(item.Name, "Details", new { id = item.ItemId })
+          </div>
+      }
+  }
 </div>
 
 <div id="medium" class="hidden common-class">
